@@ -78,7 +78,7 @@ section[data-testid="stSidebar"] {
 # --------------------------------------------------
 
 OLLAMA_MODEL = "llama3.2"
-GEMINI_MODEL = "gemini-3.8-flash"
+GEMINI_MODEL =  "gemini-3.5-flash-lite"
 
 try:
     api_key = st.secrets.get("GEMINI_API_KEY", "")
